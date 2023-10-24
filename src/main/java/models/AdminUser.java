@@ -11,5 +11,8 @@ public class AdminUser extends User {
         System.out.println("Displaying admin dashboard for user: " + getUsername());
     }
 
-
+    // Book management methods
+    public void addBook(Book book) {
+        Bookstore.getInstance().addBook(book);
+    }
 }
