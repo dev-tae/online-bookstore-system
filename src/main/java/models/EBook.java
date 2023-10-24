@@ -28,6 +28,6 @@ public class EBook extends Book {
 
     @Override
     public String toString() {
-        return "Book [ISBN=" + super.getISBN() + ", title=" + super.getTitle() + ", author=" + super.getAuthor() + ", price=" + super.getPrice() + ", stock=" + super.getStockQuantity() + ",downloadLink=" + downloadLink + "]";
+        return "EBook [ISBN=" + super.getISBN() + ", title=" + super.getTitle() + ", author=" + super.getAuthor() + ", price=" + super.getPrice() + ", stock=" + super.getStockQuantity() + ",downloadLink=" + downloadLink + "]";
     }
 }

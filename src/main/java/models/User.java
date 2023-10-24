@@ -1,6 +1,6 @@
 package models;
 
-public class User {
+public abstract class User {
     private static int idCounter = 0; // for auto-generating user IDs
     private int userID;
     private String username;
@@ -55,6 +55,8 @@ public class User {
     public void setCart(ShoppingCart cart) {
         this.cart = cart;
     }
+
+    public abstract void displayDashboard();
 
     public void register() {
 
